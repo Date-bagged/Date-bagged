@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Date Bagged</title>
-    <description></description>
+    <title>DateBagged.com - Get Bagged Today!</title>
+    <description>Sick and tired of static relationships? Get bagged today using DateBagged.com. Meet your true love based ride height goals, a desire for adjustability, and a shared hatred for unnecessary ground clearance.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 Mar 2017 11:11:31 -0700</pubDate>
-    <lastBuildDate>Tue, 21 Mar 2017 11:11:31 -0700</lastBuildDate>
+    <pubDate>Tue, 21 Mar 2017 16:31:38 -0700</pubDate>
+    <lastBuildDate>Tue, 21 Mar 2017 16:31:38 -0700</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>

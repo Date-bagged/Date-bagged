@@ -5809,14 +5809,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.site-title li a img {
-  height: 160px;
-  width: auto;
-  margin-left: -180px; }
-
-@media (max-width: 1310px) {
-  .site-title li a img {
-    margin-left: 0; } }
 .bg-home {
   background: url(/img/DateBagged-BG.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -5824,34 +5816,43 @@ button.close {
   -o-background-size: cover;
   background-size: cover; }
 
-.section-break {
-  padding: 120px 0; }
+.logo {
+  padding-top: 20px;
+  max-width: 350px;
+  max-height: auto; }
+
+.btn-danger {
+  margin-top: 20px;
+  margin-right: 20px; }
+
+.btn-danger a, .btn-danger a:hover, a:active {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: impact;
+  text-transform: uppercase;
+  text-decoration: none; }
 
 .video {
-  padding: 60px 0px; }
+  padding: 50px 0; }
 
 .footer {
   background-color: #f2f2f2; }
 
-.navbar {
-  background: #F2F2F2;
-  margin-bottom: 0px !important; }
+.nav a:hover {
+  background: transparent !important; }
 
-.footer a {
-  text-decoration: none;
-  color: red; }
+footer {
+  padding: 60px 0; }
 
-.footer a:hover {
-  text-decoration: none;
-  color: #000; }
+.blank-space {
+  padding: 50px 0; }
 
-.footer a:active {
-  text-decoration: none;
-  color: #000; }
-
-.footer h1 {
-  padding: 60px;
-  font-family: impact;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+.credits {
   text-align: center; }
+
+.credits a {
+  color: #000; }
+
+.credits a:hover {
+  color: red;
+  text-decoration: none; }
