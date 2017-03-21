@@ -1,0 +1,11 @@
+
+title: Date Bagged
+email:
+description: > # this means to ignore newlines until "baseurl:"
+
+baseurl: ""
+url: ""
+twitter_username:
+github_username:
+
+markdown: kramdown
