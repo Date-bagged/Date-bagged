@@ -5814,7 +5814,8 @@ button.close {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  overflow: hidden; }
 
 .logo {
   padding-top: 20px;
@@ -5823,17 +5824,38 @@ button.close {
 
 @media screen and (max-width: 770px) {
   .logo {
-    text-align: center; } }
-.btn-danger {
-  margin-top: 20px;
-  margin-right: 20px; }
+    max-width: 350px;
+    text-align: center;
+    margin-left: 5px; } }
+.fa {
+  color: #ED1C24; }
 
-.btn-danger a, .btn-danger a:hover, a:active {
+.fa:hover {
+  color: #000; }
+
+.prompt a button {
+  margin-top: 20px;
+  margin-right: 20px;
   color: #fff;
-  letter-spacing: 3px;
-  font-family: impact;
+  background-color: #ED1C24;
+  letter-spacing: 2px;
+  font-family: arial-black;
   text-transform: uppercase;
   text-decoration: none; }
+
+@media screen and (max-width: 770px) {
+  .prompt a button {
+    text-align: center;
+    margin-left: 20px; } }
+.prompt a button:hover {
+  color: #ED1C24;
+  background-color: #fff; }
+
+.promt a:active {
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #ff0000;
+  background-color: #ED1C24; }
 
 .video {
   padding-top: 50px;
@@ -5849,6 +5871,12 @@ button.close {
   padding: 20px 0;
   margin-left: -20px; }
 
+@media screen and (max-width: 770px) {
+  .signup {
+    max-width: 350px;
+    max-height: auto;
+    text-align: center;
+    margin-left: -0px; } }
 .collapse ul li a img {
   max-width: 600px;
   max-height: auto;
